@@ -1,0 +1,10 @@
+{
+  "name": "Remix Remix Painel - IGC_PM-CPA/M-7",
+  "description": "Painel de Análise Situacional e Gestão Corporativa do CPA/M-7 (IGC-PM-CPA/M-7)",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

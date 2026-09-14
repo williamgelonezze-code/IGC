@@ -1,0 +1,41 @@
+{
+  "tables": [
+    {
+      "name": "access_logs",
+      "columns": [
+        {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true
+        },
+        {
+          "name": "cpf",
+          "type": "varchar",
+          "length": 14,
+          "notNull": true
+        },
+        {
+          "name": "re",
+          "type": "varchar",
+          "length": 10,
+          "notNull": true
+        },
+        {
+          "name": "ip_address",
+          "type": "varchar",
+          "length": 45
+        },
+        {
+          "name": "location_data",
+          "type": "jsonb"
+        },
+        {
+          "name": "created_at",
+          "type": "timestamp",
+          "default": "now()",
+          "notNull": true
+        }
+      ]
+    }
+  ]
+}
